@@ -1,0 +1,10 @@
+c:\users\sande\source\repos\StudentDetails\StudentDetails\bin\Debug\StudentDetails.exe.config
+c:\users\sande\source\repos\StudentDetails\StudentDetails\bin\Debug\StudentDetails.exe
+c:\users\sande\source\repos\StudentDetails\StudentDetails\bin\Debug\StudentDetails.pdb
+c:\users\sande\source\repos\StudentDetails\StudentDetails\obj\Debug\StudentDetails.csprojResolveAssemblyReference.cache
+c:\users\sande\source\repos\StudentDetails\StudentDetails\obj\Debug\StudentDetails.Form1.resources
+c:\users\sande\source\repos\StudentDetails\StudentDetails\obj\Debug\StudentDetails.Properties.Resources.resources
+c:\users\sande\source\repos\StudentDetails\StudentDetails\obj\Debug\StudentDetails.csproj.GenerateResource.Cache
+c:\users\sande\source\repos\StudentDetails\StudentDetails\obj\Debug\StudentDetails.csproj.CoreCompileInputs.cache
+c:\users\sande\source\repos\StudentDetails\StudentDetails\obj\Debug\StudentDetails.exe
+c:\users\sande\source\repos\StudentDetails\StudentDetails\obj\Debug\StudentDetails.pdb
