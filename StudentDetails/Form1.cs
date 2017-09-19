@@ -12,6 +12,8 @@ namespace StudentDetails
 {
 	public partial class Form1 : Form
 	{
+		List<Student> studentDetails = new List<Student>();
+		
 		public Form1()
 		{
 			InitializeComponent();
@@ -19,11 +21,21 @@ namespace StudentDetails
 
 		private void button1_Click(object sender, EventArgs e)
 		{
-			List<Student> studentDetails = new List<Student>
+			Student students = new Student
 			{
-				new Student() {FirstName = textBox1.Text, LastName = textBox2.Text, City = textBox3.Text, Phone =Convert.ToDouble(textBox4.Text) }
+				FirstName = textBox1.Text,
+				LastName = textBox2.Text,
+				City = textBox3.Text,
+				Phone = Convert.ToDouble(textBox4.Text)
 			};
+			studentDetails.Add(students);
+			//List<Student> studentDetails = new List<Student>
+			//{
+			//	new Student() {FirstName = textBox1.Text, LastName = textBox2.Text, City = textBox3.Text, Phone =Convert.ToDouble(textBox4.Text) }
+			//};
+			dataGridView1.DataSource = null;
 			dataGridView1.DataSource = studentDetails;
+			
 		}
 	}
 }
